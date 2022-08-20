@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+body {
+  background-image: url(./background_image.jpg);
+  width: 100rem;
+  height: 60rem;
+}
+
+.baslik {
+  text-align: center;
+  margin-top: 2em;
+}
+.baslik h1 {
+  font-size: 3em;
+  font-family: fantasy;
+  color: white;
+}
+.baslik span {
+  color: red;
+}
+.baslik p {
+  font-size: 22px;
+  color: white;
+  font-style: inherit;
+}
+.form {
+  background-color: black;
+  color: white;
+  width: 350px;
+  height: 780px;
+  margin: auto;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+#ad {
+  padding: 15px;
+  width: 250px;
+}
+#yas {
+  padding: 15px;
+  width: 250px;
+}
+#email {
+  padding: 15px;
+  width: 250px;
+}
+#secenek {
+  padding: 15px;
+  width: 290px;
+}
+#submit {
+  background-color: red;
+  margin-top: 5px;
+  width: 100px;
+  height: 35px;
+  margin-left: 90px;
+  border: 1px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+}
+#submit:hover {
+  background-color: white;
+  color: red;
+}
+.saydam {
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.205);
+  height: 57rem;
+  width: 90rem;
+}
